@@ -12,8 +12,8 @@ function Blogs({id}){
 	const [data, setData] = useState([]);
 	const [loading, setLoading] = useState(true);
 
-  const url = "https://moaluszyypzvmtnbuepv.supabase.co/storage/v1/object/sign/blogs/data.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InN0b3JhZ2UtdXJsLXNpZ25pbmcta2V5X2VjNjJjZGUwLTE3NTEtNDllYy05MWI5LTZmODVjNTllMjEwZSJ9.eyJ1cmwiOiJibG9ncy9kYXRhLmpzb24iLCJpYXQiOjE3NDYxODQ2ODgsImV4cCI6MTc3NzcyMDY4OH0.Wpt6hHFw5Td9nFcQV_lFjrpqeAS8ftSZtEsHOjdn2rY";
-
+  // const url = "https://moaluszyypzvmtnbuepv.supabase.co/storage/v1/object/sign/blogs/data.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InN0b3JhZ2UtdXJsLXNpZ25pbmcta2V5X2VjNjJjZGUwLTE3NTEtNDllYy05MWI5LTZmODVjNTllMjEwZSJ9.eyJ1cmwiOiJibG9ncy9kYXRhLmpzb24iLCJpYXQiOjE3NDYxODQ2ODgsImV4cCI6MTc3NzcyMDY4OH0.Wpt6hHFw5Td9nFcQV_lFjrpqeAS8ftSZtEsHOjdn2rY";
+const url = "https://ani2216.github.io/ani2216/data.json";
   useEffect(() => {
     fetch(url)
       .then((res) => {
