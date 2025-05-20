@@ -56,8 +56,8 @@ function App(){
 
   }
 
-  // const url = "https://ani2216.github.io/ani2216/indian_recipe.json";
-  const url = "https://moaluszyypzvmtnbuepv.supabase.co/storage/v1/object/sign/recipe/indian_recipe.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InN0b3JhZ2UtdXJsLXNpZ25pbmcta2V5Xzk3NThlNmZlLWNjOTAtNGFiZi1iZDRjLWUwNjA4MzZjNmM4YiJ9.eyJ1cmwiOiJyZWNpcGUvaW5kaWFuX3JlY2lwZS5qc29uIiwiaWF0IjoxNzQ1NDIzNjk3LCJleHAiOjE3NzY5NTk2OTd9.67BI4oKqQ7KTZ_u2cgei4r3X4NRdrYp7EShdcUo7KT4"
+  const url = "https://ani2216.github.io/ani2216/indian_recipe.json";
+  // const url = "https://moaluszyypzvmtnbuepv.supabase.co/storage/v1/object/sign/recipe/indian_recipe.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InN0b3JhZ2UtdXJsLXNpZ25pbmcta2V5Xzk3NThlNmZlLWNjOTAtNGFiZi1iZDRjLWUwNjA4MzZjNmM4YiJ9.eyJ1cmwiOiJyZWNpcGUvaW5kaWFuX3JlY2lwZS5qc29uIiwiaWF0IjoxNzQ1NDIzNjk3LCJleHAiOjE3NzY5NTk2OTd9.67BI4oKqQ7KTZ_u2cgei4r3X4NRdrYp7EShdcUo7KT4"
 
   useEffect(() => {
     fetch(url)
